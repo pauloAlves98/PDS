@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+  <Usuario>
+    <login>A</login>
+    <senha>12345</senha>
+    <nome>Naruto Uzumaki</nome>
+    <cpf>11</cpf>
+    <sexo>N</sexo>
+    <ativo>true</ativo>
+    <caminhoImage>res//image//cadastro//perfil2.jpg</caminhoImage>
+    <objetivos>
+      <Objetivo>
+        <nome>Concurso PM - PE</nome>
+        <descricao>Concurso da PM - Pernambuco 2018.</descricao>
+        <prioridade>ALTA</prioridade>
+        <progresso>0</progresso>
+        <materias>
+          <model.Materia>
+            <nome>Logistica</nome>
+            <descricao>Logistica m</descricao>
+            <materiais>
+              <model.Material>
+                <nome>main.c</nome>
+                <caminho>C:\Users\P\Documents\3ºperiodo\Projeto Fisica 02\main.c</caminho>
+                <descricao>Arquivo Main.c</descricao>
+                <isPasta>false</isPasta>
+              </model.Material>
+              <model.Material>
+                <nome>obj</nome>
+                <caminho>C:\Users\P\Documents\3ºperiodo\Projeto Fisica 02\obj</caminho>
+                <descricao>Diretorio!</descricao>
+                <isPasta>true</isPasta>
+              </model.Material>
+            </materiais>
+            <topicos>
+              <string>Raciociocinio Logico</string>
+              <string> calculo</string>
+            </topicos>
+          </model.Materia>
+          <model.Materia>
+            <nome>Português</nome>
+            <descricao>Disciplina de Português.</descricao>
+            <materiais>
+              <model.Material>
+                <nome>2ºPeriodo BSI</nome>
+                <caminho>C:\Users\P\Documents\2ºPeriodo BSI</caminho>
+                <descricao/>
+                <isPasta>true</isPasta>
+              </model.Material>
+            </materiais>
+            <topicos>
+              <string>Gramatica</string>
+              <string>Linguistica</string>
+              <string>interpretação de texto</string>
+            </topicos>
+          </model.Materia>
+          <model.Materia>
+            <nome>Matemática</nome>
+            <descricao>Discliplina de Matematica.</descricao>
+            <materiais>
+              <model.Material>
+                <nome>Fundo01.jpg</nome>
+                <caminho>C:\Users\Usuário\Music\Jogo Java\ImagensJogoJava\Fundo01.jpg</caminho>
+                <descricao>Material foto</descricao>
+                <isPasta>false</isPasta>
+              </model.Material>
+              <model.Material>
+                <nome>Music</nome>
+                <caminho>C:\Users\Usuário\Music</caminho>
+                <descricao/>
+                <isPasta>true</isPasta>
+              </model.Material>
+            </materiais>
+            <topicos>
+              <string>Algebra</string>
+              <string>  Geometria</string>
+              <string>  Integral</string>
+              <string>  Figuras</string>
+            </topicos>
+          </model.Materia>
+          <model.Materia>
+            <nome>INGLES</nome>
+            <descricao>INGLE INSTRUMENTAL.</descricao>
+            <materiais/>
+            <topicos>
+              <string>TO BE</string>
+              <string> THERE</string>
+            </topicos>
+          </model.Materia>
+          <model.Materia>
+            <nome>Direito</nome>
+            <descricao>Direito</descricao>
+            <materiais/>
+            <topicos/>
+          </model.Materia>
+        </materias>
+      </Objetivo>
+      <Objetivo>
+        <nome>Concurso Serra Talhada</nome>
+        <descricao>Concurso Serra Talhada!</descricao>
+        <prioridade>ALTA</prioridade>
+        <progresso>0</progresso>
+        <materias>
+          <model.Materia>
+            <nome>Primera</nome>
+            <descricao>1</descricao>
+            <materiais/>
+            <topicos/>
+          </model.Materia>
+          <model.Materia>
+            <nome>Segunda</nome>
+            <descricao>2</descricao>
+            <materiais/>
+            <topicos/>
+          </model.Materia>
+        </materias>
+      </Objetivo>
+    </objetivos>
+  </Usuario>
+</list>
