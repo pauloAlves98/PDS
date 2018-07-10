@@ -1,6 +1,5 @@
 package view;
 
-import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
@@ -11,6 +10,8 @@ public class FuncionalidadesPanel extends JPanel{
 	private JTabbedPane jTabbedPabe;
 	private AbaPerfilPanel abaPerfilPanel;
 	private AbaObjetivosPanel abaObjetivosPanel;
+	private AbaAgendaPanel abaAgendaPanel;
+	
 	
 	public FuncionalidadesPanel(){
 		setLayout(null);
@@ -19,12 +20,30 @@ public class FuncionalidadesPanel extends JPanel{
 		jTabbedPabe.setBackground(Personalizar.branco);
 		abaPerfilPanel = new AbaPerfilPanel();
 		abaObjetivosPanel = new AbaObjetivosPanel();
+		abaAgendaPanel = new AbaAgendaPanel();
 		jTabbedPabe.addTab("Perfil", abaPerfilPanel);
 		jTabbedPabe.addTab("Objetivos", abaObjetivosPanel);
+		jTabbedPabe.addTab("Agenda", abaAgendaPanel);
 		add(jTabbedPabe);
 		jTabbedPabe.setBounds(0,20,800,600);
 		setBackground(Personalizar.roxoClaro);
 		
+	}
+
+	public JTabbedPane getjTabbedPabe() {
+		return jTabbedPabe;
+	}
+
+	public void setjTabbedPabe(JTabbedPane jTabbedPabe) {
+		this.jTabbedPabe = jTabbedPabe;
+	}
+
+	public AbaAgendaPanel getAbaAgendaPanel() {
+		return abaAgendaPanel;
+	}
+
+	public void setAbaAgendaPanel(AbaAgendaPanel abaAgendaPanel) {
+		this.abaAgendaPanel = abaAgendaPanel;
 	}
 
 	public AbaObjetivosPanel getAbaObjetivosPanel() {

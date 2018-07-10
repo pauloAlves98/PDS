@@ -56,7 +56,7 @@ public class PanelVisualizarObjetivo extends JPanel {
 		subObjetivosScroll.setBounds(131, 236, 500, 277);
 		add(subObjetivosScroll);
 		
-		subObjetivoButton = new JButton("SUB OBJETIVO");
+		subObjetivoButton = new JButton("MATERIA");
 		subObjetivoButton.setBounds(433, 57, 198, 35);
 		add(subObjetivoButton);
 		setBackground(Personalizar.violeta);
