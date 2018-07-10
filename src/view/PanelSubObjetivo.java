@@ -10,6 +10,8 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JPopupMenu;
 
+import model.Personalizar;
+
 public class PanelSubObjetivo extends JPanel {
 
 	/**
@@ -60,14 +62,22 @@ public class PanelSubObjetivo extends JPanel {
 		
 		adicionaButton = new JButton("Adicionar Mat\u00E9ria");
 		panelOpcoes.add(adicionaButton);
+		adicionaButton.setBackground(Personalizar.roxoClaro);
+		adicionaButton.setFont(Personalizar.agency30);
 		
 		editarMateriaButton = new JButton("Editar Mat\u00E9ria");
+		editarMateriaButton  .setBackground(Personalizar.roxoClaro);
+		editarMateriaButton .setFont(Personalizar.agency30);
 		panelOpcoes.add(editarMateriaButton);
 		
 		visualizarMateriaButton = new JButton("Visualizar Mat\u00E9ria");
+		visualizarMateriaButton .setBackground(Personalizar.roxoClaro);
+		visualizarMateriaButton .setFont(Personalizar.agency30);
 		panelOpcoes.add(visualizarMateriaButton);
 		
 		voltarButton = new JButton("Voltar");
+		voltarButton .setBackground(Personalizar.roxoClaro);
+		voltarButton.setFont(Personalizar.agency30);
 		panelOpcoes.add(voltarButton);
 		add(panelVisualizar, BorderLayout.CENTER);
 	}

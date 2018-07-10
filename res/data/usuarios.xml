@@ -91,8 +91,17 @@
           <model.Materia>
             <nome>Direito</nome>
             <descricao>Direito</descricao>
-            <materiais/>
-            <topicos/>
+            <materiais>
+              <model.Material>
+                <nome>14405-49897-1-PB.pdf</nome>
+                <caminho>C:\Users\Adm\Documents\14405-49897-1-PB.pdf</caminho>
+                <descricao/>
+                <isPasta>false</isPasta>
+              </model.Material>
+            </materiais>
+            <topicos>
+              <string>Constitucional</string>
+            </topicos>
           </model.Materia>
         </materias>
       </Objetivo>

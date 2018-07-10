@@ -5,6 +5,9 @@ import java.awt.Color;
 import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.JTextField;
+
+import model.Personalizar;
+
 import javax.swing.JScrollPane;
 import javax.swing.JComboBox;
 import javax.swing.JTextArea;
@@ -73,6 +76,7 @@ public class DialogCadastroObjetivo extends JDialog {
 		cadastrarButton.setBounds(193, 302, 106, 27);
 		getContentPane().add(cadastrarButton);
 		setModal(true);
+		setBackground(Personalizar.roxoClaro);
 		//setVisible(true);
 	}
 	public JTextField getNomeField() {

@@ -118,7 +118,7 @@ public class CadastroPanel extends FormularioCadastro{
 		perfil4Button.setBounds(490, 295, 100, 101);
 				
 		concluirButton.setBounds(320, 415, 100, 30);
-		
+		concluirButton.setBackground(Personalizar.roxoClaro);
 		acerto.setVisible(false);
 		
 		setBackground(Personalizar.branco);

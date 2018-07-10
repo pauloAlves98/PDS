@@ -6,6 +6,8 @@ import java.awt.Dimension;
 
 import javax.swing.JPanel;
 
+import model.Personalizar;
+
 public class AbaObjetivosPanel extends JPanel{
 	private ObjetivosPanel objetivosPanel;
 	private PanelVisualizarObjetivo  visualizarObjetivoPanel;
@@ -30,6 +32,7 @@ public class AbaObjetivosPanel extends JPanel{
 		card.addLayoutComponent(abstractPanelManipular,"abstractPanelManipular");
 		card.addLayoutComponent(panelSubObjetivo,"panelSubObjetivo");
 		card.show(this,"objetivosPanel");
+		setBackground(Personalizar.roxoClaro);
 	}
 	
 	public PanelSubObjetivo getPanelSubObjetivo() {

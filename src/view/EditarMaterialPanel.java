@@ -51,6 +51,7 @@ public class EditarMaterialPanel extends JFrame{//temporario
 		tituloPrincipalLabel.setFont(Personalizar.agency30);
 		subTituloLabel.setFont(Personalizar.agency19);
 		subTituloLabel.setForeground(Color.WHITE);
+		setBackground(Personalizar.roxoClaro);
 	
 		getContentPane().setBackground(Personalizar.roxoClaro);
 		
@@ -77,6 +78,7 @@ public class EditarMaterialPanel extends JFrame{//temporario
 		descricaoLabel.setBounds(332,200,100,20);
 		descricaoJscrollPane.setBounds(410,195,250,100);
 		aplicarAuteracaoButton.setBounds(530,500,180,25);
+		setBackground(Personalizar.roxoClaro);
 	}
 	
 	

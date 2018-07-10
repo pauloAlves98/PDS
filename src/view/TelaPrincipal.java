@@ -5,6 +5,8 @@ import java.awt.CardLayout;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import model.Personalizar;
+
 @SuppressWarnings("serial")
 public class TelaPrincipal extends JFrame {
 	private CardLayout cardLayout;
@@ -35,6 +37,7 @@ public class TelaPrincipal extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		setResizable(false);
+		setBackground(Personalizar.roxoClaro);
 		
 	}
 	

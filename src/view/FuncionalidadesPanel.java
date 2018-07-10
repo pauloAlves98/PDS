@@ -4,6 +4,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
+import model.Personalizar;
+
 @SuppressWarnings("serial")
 public class FuncionalidadesPanel extends JPanel{
 	private JTabbedPane jTabbedPabe;
@@ -13,12 +15,16 @@ public class FuncionalidadesPanel extends JPanel{
 	public FuncionalidadesPanel(){
 		setLayout(null);
 		jTabbedPabe = new JTabbedPane();
+		jTabbedPabe.setBackground(Personalizar.roxoClaro);
+		jTabbedPabe.setBackground(Personalizar.branco);
 		abaPerfilPanel = new AbaPerfilPanel();
 		abaObjetivosPanel = new AbaObjetivosPanel();
 		jTabbedPabe.addTab("Perfil", abaPerfilPanel);
 		jTabbedPabe.addTab("Objetivos", abaObjetivosPanel);
 		add(jTabbedPabe);
 		jTabbedPabe.setBounds(0,20,800,600);
+		setBackground(Personalizar.roxoClaro);
+		
 	}
 
 	public AbaObjetivosPanel getAbaObjetivosPanel() {

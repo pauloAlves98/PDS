@@ -44,6 +44,7 @@ public class AbaPerfilPanel extends JPanel{
 		
 		 
 		 cardLayout.show(this,"perfilPanel");
+		 setBackground(Personalizar.roxoClaro);
 	}
 	
 	
